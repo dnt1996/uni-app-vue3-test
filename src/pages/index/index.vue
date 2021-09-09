@@ -1,49 +1,36 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view>
-			<text class="title">{{title}}</text>
-		</view>
+	<view>
+        <!--只在页面代码中并且嵌套了任何组件都会无法触发click事件-->
+        <Wrapper>
+            <ScopedSlotComponent v-slot="{item}">
+                <view @click="onClick">
+                    {{item}}
+                </view>
+            </ScopedSlotComponent>
+        </Wrapper>
+
+        <!--不嵌套则正常触发-->
+        <ScopedSlotComponent v-slot="{item}">
+            <view @click="onClick">
+                {{item}}
+            </view>
+        </ScopedSlotComponent>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
+	import ScopedSlotComponent from "../components/ScopedSlotComponent";
+    import Wrapper from "../components/Wrapper";
+    export default {
+        components: {
+            Wrapper,
+            ScopedSlotComponent
+        },
+        setup() {
+            return {
+                title: true,
+                onClick: console.log
+            }
+        },
 	}
 </script>
-
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
-</style>
