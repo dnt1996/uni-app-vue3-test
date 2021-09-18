@@ -251,7 +251,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.15.4", "@babel/parser@^7.15.5", "@babel/parser@^7.3.3":
+"@babel/parser@^7.1.0", "@babel/parser@^7.15.0", "@babel/parser@^7.15.4", "@babel/parser@^7.15.5", "@babel/parser@^7.3.3":
   version "7.15.7"
   resolved "https://registry.nlark.com/@babel/parser/download/@babel/parser-7.15.7.tgz?cache=0&sync_timestamp=1631920001183&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.15.7.tgz#0c3ed4a2eb07b165dfa85b3cc45c727334c4edae"
   integrity sha1-DD7UousHsWXfqFs8xFxyczTE7a4=
@@ -927,7 +927,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.15.4", "@babel/types@^7.15.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
+"@babel/types@^7.0.0", "@babel/types@^7.15.0", "@babel/types@^7.15.4", "@babel/types@^7.15.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
   version "7.15.6"
   resolved "https://registry.nlark.com/@babel/types/download/@babel/types-7.15.6.tgz?cache=0&sync_timestamp=1631216765565&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.15.6.tgz#99abdc48218b2881c058dd0a7ab05b99c9be758f"
   integrity sha1-mavcSCGLKIHAWN0KerBbmcm+dY8=
@@ -953,15 +953,15 @@
   resolved "https://registry.nlark.com/@dcloudio/types/download/@dcloudio/types-2.5.8.tgz#3aee4b179bb4c13877309dc0fe1ba4ca1ff7d3b0"
   integrity sha1-Ou5LF5u0wTh3MJ3A/hukyh/307A=
 
-"@dcloudio/uni-app-plus@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-app-plus/download/@dcloudio/uni-app-plus-2.0.0-32220210818002.tgz#a90dbd3a7aa25d341ad53d7656248c25a9632632"
-  integrity sha1-qQ29OnqiXTQa1T12ViSMJaljJjI=
+"@dcloudio/uni-app-plus@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-app-plus/download/@dcloudio/uni-app-plus-2.0.0-alpha-32720210917001.tgz#04a3f59e8c14ff42a04eb2bba662fcbbe939ed04"
+  integrity sha1-BKP1nowU/0KgTrK7pmL8u+k57QQ=
 
-"@dcloudio/uni-automator@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-automator/download/@dcloudio/uni-automator-2.0.0-32220210818002.tgz#7bc6335056cb9e93b9f583664129622dc0152bb2"
-  integrity sha1-e8YzUFbLnpO59YNmQSliLcAVK7I=
+"@dcloudio/uni-automator@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-automator/download/@dcloudio/uni-automator-2.0.0-alpha-32720210917001.tgz#bebb56e492c4f34284c72c7e13d2d712b0ca4f4d"
+  integrity sha1-vrtW5JLE80KExyx+E9LXErDKT00=
   dependencies:
     address "^1.1.2"
     debug "^4.1.1"
@@ -973,19 +973,27 @@
     qrcode-terminal "^0.12.0"
     ws "^7.2.3"
 
-"@dcloudio/uni-cli-shared@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-cli-shared/download/@dcloudio/uni-cli-shared-2.0.0-32220210818002.tgz#751eb420481066ff4d23ffb686edc4beb65a1fa3"
-  integrity sha1-dR60IEgQZv9NI/+2hu3EvrZaH6M=
+"@dcloudio/uni-cli-i18n@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.nlark.com/@dcloudio/uni-cli-i18n/download/@dcloudio/uni-cli-i18n-0.0.1.tgz#338899df3d09e6b15518056c66f8600820d0971d"
+  integrity sha1-M4iZ3z0J5rFVGAVsZvhgCCDQlx0=
+  dependencies:
+    i18n "^0.13.3"
+    os-locale-s-fix "^1.0.8-fix"
+
+"@dcloudio/uni-cli-shared@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-cli-shared/download/@dcloudio/uni-cli-shared-2.0.0-alpha-32720210917001.tgz#014234041b903fd3d13a97b31c88bda077391739"
+  integrity sha1-AUI0BBuQP9PROpezHIi9oHc5Fzk=
   dependencies:
     hash-sum "^1.0.2"
     postcss-urlrewrite "^0.2.2"
     strip-json-comments "^2.0.1"
 
-"@dcloudio/uni-h5@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-h5/download/@dcloudio/uni-h5-2.0.0-32220210818002.tgz#5e53d3522391af69aa580e1cf11ea925ff2bd5f9"
-  integrity sha1-XlPTUiORr2mqWA4c8R6pJf8r1fk=
+"@dcloudio/uni-h5@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-h5/download/@dcloudio/uni-h5-2.0.0-alpha-32720210917001.tgz#1fd120cc14bc0f0352fd10a9c8355feef5c121a8"
+  integrity sha1-H9EgzBS8DwNS/RCpyDVf7vXBIag=
   dependencies:
     base64-arraybuffer "^0.2.0"
     intersection-observer "^0.7.0"
@@ -1002,10 +1010,10 @@
   resolved "https://registry.nlark.com/@dcloudio/uni-i18n/download/@dcloudio/uni-i18n-2.0.0-32220210818002.tgz#6d628d28a415e3e9d7a6d202dc93c11b5ed982d9"
   integrity sha1-bWKNKKQV4+nXptIC3JPBG17Zgtk=
 
-"@dcloudio/uni-migration@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-migration/download/@dcloudio/uni-migration-2.0.0-32220210818002.tgz#fca5625290386d647b85a9257f04eb6fe12e9218"
-  integrity sha1-/KViUpA4bWR7haklfwTrb+Eukhg=
+"@dcloudio/uni-migration@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-migration/download/@dcloudio/uni-migration-2.0.0-alpha-32720210917001.tgz#a12e227985867aa2dbde84b5d1f4841b6a800e44"
+  integrity sha1-oS4ieYWGeqLb3oS10fSEG2qADkQ=
   dependencies:
     commander "^4.0.1"
     fs-extra "^8.1.0"
@@ -1013,96 +1021,101 @@
     recast "*"
     stricter-htmlparser2 "^3.9.6"
 
-"@dcloudio/uni-mp-360@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-360/download/@dcloudio/uni-mp-360-2.0.0-32220210818002.tgz#a5a79c0511bb6fe76d8615203ecedac98ed3026e"
-  integrity sha1-paecBRG7b+dthhUgPs7ayY7TAm4=
+"@dcloudio/uni-mp-360@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-360/download/@dcloudio/uni-mp-360-2.0.0-alpha-32720210917001.tgz#39380dc13e29fec08108ce93533d3b542cbf484f"
+  integrity sha1-OTgNwT4p/sCBCM6TUz07VCy/SE8=
 
-"@dcloudio/uni-mp-alipay@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-alipay/download/@dcloudio/uni-mp-alipay-2.0.0-32220210818002.tgz#d2452a16ad5041ed8643b2d8a36eeb25a8f61c81"
-  integrity sha1-0kUqFq1QQe2GQ7LYo27rJaj2HIE=
+"@dcloudio/uni-mp-alipay@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-alipay/download/@dcloudio/uni-mp-alipay-2.0.0-alpha-32720210917001.tgz#7dd2b96cbdfa97665bb4fbd596c051eb1ee237a8"
+  integrity sha1-fdK5bL36l2ZbtPvVlsBR6x7iN6g=
 
-"@dcloudio/uni-mp-baidu@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-baidu/download/@dcloudio/uni-mp-baidu-2.0.0-32220210818002.tgz#f62d2622070e74fe1c2b48c8be6839b0d3d73e99"
-  integrity sha1-9i0mIgcOdP4cK0jIvmg5sNPXPpk=
+"@dcloudio/uni-mp-baidu@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-baidu/download/@dcloudio/uni-mp-baidu-2.0.0-alpha-32720210917001.tgz#1f7bcdc0cb548e994f0cfcc6d4854f6b29542d98"
+  integrity sha1-H3vNwMtUjplPDPzG1IVPaylULZg=
 
-"@dcloudio/uni-mp-kuaishou@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-kuaishou/download/@dcloudio/uni-mp-kuaishou-2.0.0-32220210818002.tgz#e837fc23722e34cf67f39c439c0734bf8d26601f"
-  integrity sha1-6Df8I3IuNM9n85xDnAc0v40mYB8=
+"@dcloudio/uni-mp-kuaishou@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-kuaishou/download/@dcloudio/uni-mp-kuaishou-2.0.0-alpha-32720210917001.tgz#3a49a8ee982737521596db72a44fd12ab1d9a02e"
+  integrity sha1-Okmo7pgnN1IVlttypE/RKrHZoC4=
 
-"@dcloudio/uni-mp-qq@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-qq/download/@dcloudio/uni-mp-qq-2.0.0-32220210818002.tgz#620f2c6f8541cf757eae313743e75bbef26563a2"
-  integrity sha1-Yg8sb4VBz3V+rjE3Q+dbvvJlY6I=
+"@dcloudio/uni-mp-qq@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-qq/download/@dcloudio/uni-mp-qq-2.0.0-alpha-32720210917001.tgz#e278a58077cea1f485a120b32a992fe81a350410"
+  integrity sha1-4nilgHfOofSFoSCzKpkv6Bo1BBA=
 
-"@dcloudio/uni-mp-toutiao@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-toutiao/download/@dcloudio/uni-mp-toutiao-2.0.0-32220210818002.tgz#b3f66de0d241d28d734841e5b611582fe805c43f"
-  integrity sha1-s/Zt4NJB0o1zSEHlthFYL+gFxD8=
+"@dcloudio/uni-mp-toutiao@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-toutiao/download/@dcloudio/uni-mp-toutiao-2.0.0-alpha-32720210917001.tgz#1747e0433baf6ef86715775c1d420fa82d30d848"
+  integrity sha1-F0fgQzuvbvhnFXdcHUIPqC0w2Eg=
 
-"@dcloudio/uni-mp-vue@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-vue/download/@dcloudio/uni-mp-vue-2.0.0-32220210818002.tgz#c4b3f3fe16e20ad1b53e393ab5fe564b096dc8aa"
-  integrity sha1-xLPz/hbiCtG1Pjk6tf5WSwltyKo=
+"@dcloudio/uni-mp-vue@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-vue/download/@dcloudio/uni-mp-vue-2.0.0-alpha-32720210917001.tgz#931cc8b0df276254f9d05ff43ae6c33e496e7bbf"
+  integrity sha1-kxzIsN8nYlT50F/0OubDPklue78=
 
-"@dcloudio/uni-mp-weixin@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-mp-weixin/download/@dcloudio/uni-mp-weixin-2.0.0-32220210818002.tgz#c3e6c71acac45b159e24381d960011bfbbbdedb1"
-  integrity sha1-w+bHGsrEWxWeJDgdlgARv7u97bE=
+"@dcloudio/uni-mp-weixin@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-mp-weixin/download/@dcloudio/uni-mp-weixin-2.0.0-alpha-32720210917001.tgz#4ae06bbc5ad7a15e6936d6b2c5541fa887503c40"
+  integrity sha1-SuBrvFrXoV5pNtayxVQfqIdQPEA=
 
-"@dcloudio/uni-quickapp-native@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-quickapp-native/download/@dcloudio/uni-quickapp-native-2.0.0-32220210818002.tgz#63352a35a1f703de79771afe7845ef63a14b5516"
-  integrity sha1-YzUqNaH3A955dxr+eEXvY6FLVRY=
+"@dcloudio/uni-quickapp-native@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-quickapp-native/download/@dcloudio/uni-quickapp-native-2.0.0-alpha-32720210917001.tgz#9bfaade8836eaca75fbf3bb69b64f8e7ba769142"
+  integrity sha1-m/qt6INurKdfvzu2m2T457p2kUI=
   dependencies:
     "@hap-toolkit/dsl-vue" "0.6.13"
     "@hap-toolkit/packager" "0.6.13"
     "@hap-toolkit/server" "0.6.13"
     module-alias "^2.1.0"
 
-"@dcloudio/uni-quickapp-webview@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-quickapp-webview/download/@dcloudio/uni-quickapp-webview-2.0.0-32220210818002.tgz#3bcc3da27c55f0eea342ae5001c1a14b62f36734"
-  integrity sha1-O8w9onxV8O6jQq5QAcGhS2LzZzQ=
+"@dcloudio/uni-quickapp-webview@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-quickapp-webview/download/@dcloudio/uni-quickapp-webview-2.0.0-alpha-32720210917001.tgz#032249a1ebb30f7229ea262a0e560cedc3a2dc75"
+  integrity sha1-AyJJoeuzD3Ip6iYqDlYM7cOi3HU=
 
-"@dcloudio/uni-stat@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-stat/download/@dcloudio/uni-stat-2.0.0-32220210818002.tgz#3c8a26032c2f90f77ada0a1465e8a9b9c107882f"
-  integrity sha1-PIomAywvkPd62goUZeipucEHiC8=
+"@dcloudio/uni-stat@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-stat/download/@dcloudio/uni-stat-2.0.0-alpha-32720210917001.tgz#a044450877a6931bd4f0f55afc963cca9ee75fe3"
+  integrity sha1-oERFCHemkxvU8PVa/JY8yp7nX+M=
 
-"@dcloudio/uni-template-compiler@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-template-compiler/download/@dcloudio/uni-template-compiler-2.0.0-32220210818002.tgz#6f3f528cb859b298e77fc8d07fa56a359cd49b07"
-  integrity sha1-bz9SjLhZspjnf8jQf6VqNZzUmwc=
+"@dcloudio/uni-stat@^2.0.0-alpha-32720210917001":
+  version "2.0.0"
+  resolved "https://registry.nlark.com/@dcloudio/uni-stat/download/@dcloudio/uni-stat-2.0.0.tgz#e213db09d99cf856c80305f4c71a40d7cfadbf8d"
+  integrity sha1-4hPbCdmc+FbIAwX0xxpA18+tv40=
+
+"@dcloudio/uni-template-compiler@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-template-compiler/download/@dcloudio/uni-template-compiler-2.0.0-alpha-32720210917001.tgz#3c793e86dd6d20f4f2c9f01c6a59e3c9fd8a5d2a"
+  integrity sha1-PHk+ht1tIPTyyfAcalnjyf2KXSo=
   dependencies:
     "@babel/parser" "^7.3.3"
     "@babel/traverse" "^7.3.3"
     "@babel/types" "^7.3.3"
     vue-template-compiler "^2.6.10"
 
-"@dcloudio/vue-cli-plugin-hbuilderx@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-hbuilderx/download/@dcloudio/vue-cli-plugin-hbuilderx-2.0.0-32220210818002.tgz#e6904275ba26383f128577896250ce9ee99e868d"
-  integrity sha1-5pBCdbomOD8ShXeJYlDOnumeho0=
+"@dcloudio/vue-cli-plugin-hbuilderx@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-hbuilderx/download/@dcloudio/vue-cli-plugin-hbuilderx-2.0.0-alpha-32720210917001.tgz#23595295ed3d7558e46f39935932752ee3a0e09e"
+  integrity sha1-I1lSle09dVjkbzmTWTJ1LuOg4J4=
   dependencies:
     acorn "^5.2.1"
     css "~2.2.1"
     escodegen "^1.8.1"
 
-"@dcloudio/vue-cli-plugin-uni-optimize@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-uni-optimize/download/@dcloudio/vue-cli-plugin-uni-optimize-2.0.0-32220210818002.tgz#2f7bf40edb2f950753f840e9e7986f317edea644"
-  integrity sha1-L3v0DtsvlQdT+EDp55hvMX7epkQ=
+"@dcloudio/vue-cli-plugin-uni-optimize@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-uni-optimize/download/@dcloudio/vue-cli-plugin-uni-optimize-2.0.0-alpha-32720210917001.tgz#1805001ead04c7f10ba19cd0f95acbd79d15720c"
+  integrity sha1-GAUAHq0Ex/ELoZzQ+VrL150Vcgw=
 
-"@dcloudio/vue-cli-plugin-uni@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-uni/download/@dcloudio/vue-cli-plugin-uni-2.0.0-32220210818002.tgz#aba0f21fe8dbd07cb8aa1d46a8262dc279ccc43a"
-  integrity sha1-q6DyH+jb0Hy4qh1GqCYtwnnMxDo=
+"@dcloudio/vue-cli-plugin-uni@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/vue-cli-plugin-uni/download/@dcloudio/vue-cli-plugin-uni-2.0.0-alpha-32720210917001.tgz#5e05a273c20cbdeacdc1550641b3fa95659c2a1f"
+  integrity sha1-XgWic8IMverNwVUGQbP6lWWcKh8=
   dependencies:
-    "@dcloudio/uni-stat" "^2.0.0-32220210818002"
+    "@dcloudio/uni-stat" "^2.0.0-alpha-32720210917001"
     buffer-json "^2.0.0"
     copy-webpack-plugin "^5.1.1"
     cross-env "^5.2.0"
@@ -1122,15 +1135,15 @@
     wrap-loader "^0.2.0"
     xregexp "4.0.0"
 
-"@dcloudio/webpack-uni-mp-loader@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/webpack-uni-mp-loader/download/@dcloudio/webpack-uni-mp-loader-2.0.0-32220210818002.tgz#1364321baf0f2200aeec8d3a67a6a3773b1ab1aa"
-  integrity sha1-E2QyG68PIgCu7I06Z6ajdzsasao=
+"@dcloudio/webpack-uni-mp-loader@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/webpack-uni-mp-loader/download/@dcloudio/webpack-uni-mp-loader-2.0.0-alpha-32720210917001.tgz#c79c91a5e704421fb4731385a9c32071a50363a3"
+  integrity sha1-x5yRpecEQh+0cxOFqcMgcaUDY6M=
 
-"@dcloudio/webpack-uni-pages-loader@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/webpack-uni-pages-loader/download/@dcloudio/webpack-uni-pages-loader-2.0.0-32220210818002.tgz#1b04305c20e7f4b7573576e624922212f06b799b"
-  integrity sha1-GwQwXCDn9LdXNXbmJJIiEvBreZs=
+"@dcloudio/webpack-uni-pages-loader@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/webpack-uni-pages-loader/download/@dcloudio/webpack-uni-pages-loader-2.0.0-alpha-32720210917001.tgz#8a8fef98c20e0fa240fa0a827f7fab48a9dffa58"
+  integrity sha1-io/vmMIOD6JA+gqCf3+rSKnf+lg=
   dependencies:
     merge "^1.2.1"
     strip-json-comments "^2.0.1"
@@ -1584,6 +1597,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/estree@^0.0.48":
+  version "0.0.48"
+  resolved "https://registry.nlark.com/@types/estree/download/@types/estree-0.0.48.tgz?cache=0&sync_timestamp=1629707592205&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Festree%2Fdownload%2F%40types%2Festree-0.0.48.tgz#18dc8091b285df90db2f25aa7d906cfc394b7f74"
+  integrity sha1-GNyAkbKF35DbLyWqfZBs/DlLf3Q=
+
 "@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.18":
   version "4.17.24"
   resolved "https://registry.nlark.com/@types/express-serve-static-core/download/@types/express-serve-static-core-4.17.24.tgz#ea41f93bf7e0d59cd5a76665068ed6aab6815c07"
@@ -2009,6 +2027,57 @@
     semver "^6.1.0"
     strip-ansi "^6.0.0"
 
+"@vue/compiler-core@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/compiler-core/download/@vue/compiler-core-3.2.12.tgz#23998d6986a45e1ab0424130cc0ad00e33da1101"
+  integrity sha1-I5mNaYakXhqwQkEwzArQDjPaEQE=
+  dependencies:
+    "@babel/parser" "^7.15.0"
+    "@babel/types" "^7.15.0"
+    "@vue/shared" "3.2.12"
+    estree-walker "^2.0.2"
+    source-map "^0.6.1"
+
+"@vue/compiler-dom@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/compiler-dom/download/@vue/compiler-dom-3.2.12.tgz#d6ba00114e73adb8b18940c3ff18797cc2b0514f"
+  integrity sha1-1roAEU5zrbixiUDD/xh5fMKwUU8=
+  dependencies:
+    "@vue/compiler-core" "3.2.12"
+    "@vue/shared" "3.2.12"
+
+"@vue/compiler-sfc@^3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/compiler-sfc/download/@vue/compiler-sfc-3.2.12.tgz#39555550d96051508753ba934f7260dc5ee5211e"
+  integrity sha1-OVVVUNlgUVCHU7qTT3Jg3F7lIR4=
+  dependencies:
+    "@babel/parser" "^7.15.0"
+    "@babel/types" "^7.15.0"
+    "@types/estree" "^0.0.48"
+    "@vue/compiler-core" "3.2.12"
+    "@vue/compiler-dom" "3.2.12"
+    "@vue/compiler-ssr" "3.2.12"
+    "@vue/ref-transform" "3.2.12"
+    "@vue/shared" "3.2.12"
+    consolidate "^0.16.0"
+    estree-walker "^2.0.2"
+    hash-sum "^2.0.0"
+    lru-cache "^5.1.1"
+    magic-string "^0.25.7"
+    merge-source-map "^1.1.0"
+    postcss "^8.1.10"
+    postcss-modules "^4.0.0"
+    postcss-selector-parser "^6.0.4"
+    source-map "^0.6.1"
+
+"@vue/compiler-ssr@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/compiler-ssr/download/@vue/compiler-ssr-3.2.12.tgz#32e5d4bc31c371c125b43e9d07b8a8f70442b080"
+  integrity sha1-MuXUvDHDccEltD6dB7io9wRCsIA=
+  dependencies:
+    "@vue/compiler-dom" "3.2.12"
+    "@vue/shared" "3.2.12"
+
 "@vue/component-compiler-utils@^3.1.0", "@vue/component-compiler-utils@^3.1.2":
   version "3.2.2"
   resolved "https://registry.nlark.com/@vue/component-compiler-utils/download/@vue/component-compiler-utils-3.2.2.tgz?cache=0&sync_timestamp=1623744211654&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcomponent-compiler-utils%2Fdownload%2F%40vue%2Fcomponent-compiler-utils-3.2.2.tgz#2f7ed5feed82ff7f0284acc11d525ee7eff22460"
@@ -2030,7 +2099,42 @@
   resolved "https://registry.nlark.com/@vue/preload-webpack-plugin/download/@vue/preload-webpack-plugin-1.1.2.tgz#ceb924b4ecb3b9c43871c7a429a02f8423e621ab"
   integrity sha1-zrkktOyzucQ4ccekKaAvhCPmIas=
 
-"@vue/shared@^3.0.0":
+"@vue/reactivity@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/reactivity/download/@vue/reactivity-3.2.12.tgz#b482a737cbdc891f9b1ec3100f3c1804b56d080b"
+  integrity sha1-tIKnN8vciR+bHsMQDzwYBLVtCAs=
+  dependencies:
+    "@vue/shared" "3.2.12"
+
+"@vue/ref-transform@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/ref-transform/download/@vue/ref-transform-3.2.12.tgz#6f7fa46dd84447ddcf54adfb1b689b1cf4243de0"
+  integrity sha1-b3+kbdhER93PVK37G2ibHPQkPeA=
+  dependencies:
+    "@babel/parser" "^7.15.0"
+    "@vue/compiler-core" "3.2.12"
+    "@vue/shared" "3.2.12"
+    estree-walker "^2.0.2"
+    magic-string "^0.25.7"
+
+"@vue/runtime-core@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/runtime-core/download/@vue/runtime-core-3.2.12.tgz#422662fd5b85f787222d2aea840264ba97e84a13"
+  integrity sha1-QiZi/VuF94ciLSrqhAJkupfoShM=
+  dependencies:
+    "@vue/reactivity" "3.2.12"
+    "@vue/shared" "3.2.12"
+
+"@vue/runtime-dom@3.2.12":
+  version "3.2.12"
+  resolved "https://registry.nlark.com/@vue/runtime-dom/download/@vue/runtime-dom-3.2.12.tgz#d9fe865dca36f9ca33ba327afdeb89ae2aa03f4c"
+  integrity sha1-2f6GXco2+cozujJ6/euJriqgP0w=
+  dependencies:
+    "@vue/runtime-core" "3.2.12"
+    "@vue/shared" "3.2.12"
+    csstype "^2.6.8"
+
+"@vue/shared@3.2.12", "@vue/shared@^3.0.0":
   version "3.2.12"
   resolved "https://registry.nlark.com/@vue/shared/download/@vue/shared-3.2.12.tgz#304064a4b56fc6c7b9169d80e9ee62ecb4bf0a1c"
   integrity sha1-MEBkpLVvxse5Fp2A6e5i7LS/Chw=
@@ -2747,7 +2851,7 @@ blob@0.0.5:
   resolved "https://registry.nlark.com/blob/download/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
   integrity sha1-1oDu7yX4zZGtUz9bAe7UjmTK9oM=
 
-bluebird@^3.1.1, bluebird@^3.5.5:
+bluebird@^3.1.1, bluebird@^3.5.5, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.nlark.com/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
@@ -3384,7 +3488,7 @@ color@^3.0.0:
     color-convert "^1.9.3"
     color-string "^1.6.0"
 
-colorette@^1.2.1, colorette@^1.3.0:
+colorette@^1.2.1, colorette@^1.2.2, colorette@^1.3.0:
   version "1.4.0"
   resolved "https://registry.nlark.com/colorette/download/colorette-1.4.0.tgz?cache=0&sync_timestamp=1631964907930&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcolorette%2Fdownload%2Fcolorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
   integrity sha1-UZD7uHJ2JZqGrXAL/yxtb6o/ykA=
@@ -3492,6 +3596,13 @@ consolidate@^0.15.1:
   integrity sha1-IasEMjXHGgfUXZqtmFk7DbpWurc=
   dependencies:
     bluebird "^3.1.1"
+
+consolidate@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.nlark.com/consolidate/download/consolidate-0.16.0.tgz#a11864768930f2f19431660a65906668f5fbdc16"
+  integrity sha1-oRhkdokw8vGUMWYKZZBmaPX73BY=
+  dependencies:
+    bluebird "^3.7.2"
 
 constants-browserify@^1.0.0:
   version "1.0.0"
@@ -3917,6 +4028,11 @@ cssstyle@^2.0.0:
   integrity sha1-/2ZaDdvcMYZLCWR/NBY0Q9kLCFI=
   dependencies:
     cssom "~0.3.6"
+
+csstype@^2.6.8:
+  version "2.6.18"
+  resolved "https://registry.nlark.com/csstype/download/csstype-2.6.18.tgz#980a8b53085f34af313410af064f2bd241784218"
+  integrity sha1-mAqLUwhfNK8xNBCvBk8r0kF4Qhg=
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -4536,6 +4652,11 @@ estraverse@^5.2.0:
   resolved "https://registry.nlark.com/estraverse/download/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
   integrity sha1-MH30JUfmzHMk088DwVXVzbjFOIA=
 
+estree-walker@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.nlark.com/estree-walker/download/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
+  integrity sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
+
 esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.nlark.com/esutils/download/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
@@ -4981,6 +5102,13 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.nlark.com/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
+
+generic-names@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/generic-names/download/generic-names-2.0.1.tgz#f8a378ead2ccaa7a34f0317b05554832ae41b872"
+  integrity sha1-+KN46tLMqno08DF7BVVIMq5BuHI=
+  dependencies:
+    loader-utils "^1.1.0"
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -5496,6 +5624,18 @@ human-signals@^2.1.0:
   resolved "https://registry.nlark.com/human-signals/download/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha1-3JH8ukLk0G5Kuu0zs+ejwC9RTqA=
 
+i18n@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.nlark.com/i18n/download/i18n-0.13.3.tgz#5820f48d87a77cf14e064719bee9bc682ed550eb"
+  integrity sha1-WCD0jYenfPFOBkcZvum8aC7VUOs=
+  dependencies:
+    debug "^4.1.1"
+    make-plural "^6.2.2"
+    math-interval-parser "^2.0.1"
+    messageformat "^2.3.0"
+    mustache "^4.0.1"
+    sprintf-js "^1.1.2"
+
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.nlark.com/iconv-lite/download/iconv-lite-0.4.24.tgz?cache=0&sync_timestamp=1621826522823&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ficonv-lite%2Fdownload%2Ficonv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -5514,6 +5654,11 @@ icss-utils@^4.0.0, icss-utils@^4.1.0, icss-utils@^4.1.1:
   integrity sha1-IRcLU3ie4nRHwvR91oMIFAP5pGc=
   dependencies:
     postcss "^7.0.14"
+
+icss-utils@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.nlark.com/icss-utils/download/icss-utils-5.1.0.tgz#c6be6858abd013d768e98366ae47e25d5887b1ae"
+  integrity sha1-xr5oWKvQE9do6YNmrkfiXViHsa4=
 
 ieee754@^1.1.4:
   version "1.2.1"
@@ -5657,6 +5802,11 @@ intersection-observer@^0.7.0:
   version "0.7.0"
   resolved "https://registry.nlark.com/intersection-observer/download/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
   integrity sha1-7ha+6XjbU1FurS8KgVSwm0ALvck=
+
+invert-kv@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.nlark.com/invert-kv/download/invert-kv-3.0.1.tgz#a93c7a3d4386a1dc8325b97da9bb1620c0282523"
+  integrity sha1-qTx6PUOGodyDJbl9qbsWIMAoJSM=
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -6773,6 +6923,13 @@ launch-editor@^2.2.1:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
 
+lcid@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.nlark.com/lcid/download/lcid-3.1.1.tgz#9030ec479a058fc36b5e8243ebaac8b6ac582fd0"
+  integrity sha1-kDDsR5oFj8NrXoJD66rItqxYL9A=
+  dependencies:
+    invert-kv "^3.0.0"
+
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.nlark.com/leven/download/leven-3.1.0.tgz?cache=0&sync_timestamp=1628598256034&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fleven%2Fdownload%2Fleven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
@@ -6850,6 +7007,11 @@ locate-path@^5.0.0:
   integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
   dependencies:
     p-locate "^4.1.0"
+
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.nlark.com/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
@@ -6935,6 +7097,13 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+magic-string@^0.25.7:
+  version "0.25.7"
+  resolved "https://registry.nlark.com/magic-string/download/magic-string-0.25.7.tgz#3f497d6fd34c669c6798dcb821f2ef31f5445051"
+  integrity sha1-P0l9b9NMZpxnmNy4IfLvMfVEUFE=
+  dependencies:
+    sourcemap-codec "^1.4.4"
+
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
   resolved "https://registry.nlark.com/make-dir/download/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
@@ -6949,6 +7118,18 @@ make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
   dependencies:
     semver "^6.0.0"
+
+make-plural@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.nlark.com/make-plural/download/make-plural-4.3.0.tgz#f23de08efdb0cac2e0c9ba9f315b0dff6b4c2735"
+  integrity sha1-8j3gjv2wysLgybqfMVsN/2tMJzU=
+  optionalDependencies:
+    minimist "^1.2.0"
+
+make-plural@^6.2.2:
+  version "6.2.2"
+  resolved "https://registry.nlark.com/make-plural/download/make-plural-6.2.2.tgz#beb5fd751355e72660eeb2218bb98eec92853c6c"
+  integrity sha1-vrX9dRNV5yZg7rIhi7mO7JKFPGw=
 
 makeerror@1.0.x:
   version "1.0.11"
@@ -6968,6 +7149,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+math-interval-parser@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/math-interval-parser/download/math-interval-parser-2.0.1.tgz#e22cd6d15a0a7f4c03aec560db76513da615bed4"
+  integrity sha1-4izW0VoKf0wDrsVg23ZRPaYVvtQ=
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7044,6 +7230,25 @@ merge@^1.2.1:
   version "1.2.1"
   resolved "https://registry.nlark.com/merge/download/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
   integrity sha1-OL6/gMMiCopIe2/Ps5QbsRcgwUU=
+
+messageformat-formatters@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/messageformat-formatters/download/messageformat-formatters-2.0.1.tgz#0492c1402a48775f751c9b17c0354e92be012b08"
+  integrity sha1-BJLBQCpId191HJsXwDVOkr4BKwg=
+
+messageformat-parser@^4.1.2:
+  version "4.1.3"
+  resolved "https://registry.nlark.com/messageformat-parser/download/messageformat-parser-4.1.3.tgz#b824787f57fcda7d50769f5b63e8d4fda68f5b9e"
+  integrity sha1-uCR4f1f82n1Qdp9bY+jU/aaPW54=
+
+messageformat@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.nlark.com/messageformat/download/messageformat-2.3.0.tgz#de263c49029d5eae65d7ee25e0754f57f425ad91"
+  integrity sha1-3iY8SQKdXq5l1+4l4HVPV/QlrZE=
+  dependencies:
+    make-plural "^4.3.0"
+    messageformat-formatters "^2.0.1"
+    messageformat-parser "^4.1.2"
 
 methods@^1.0.1, methods@~1.1.2:
   version "1.1.2"
@@ -7271,6 +7476,11 @@ mustache@^3.1.0:
   resolved "https://registry.nlark.com/mustache/download/mustache-3.2.1.tgz#89e78a9d207d78f2799b1e95764a25bf71a28322"
   integrity sha1-ieeKnSB9ePJ5mx6Vdkolv3GigyI=
 
+mustache@^4.0.1:
+  version "4.2.0"
+  resolved "https://registry.nlark.com/mustache/download/mustache-4.2.0.tgz#e5892324d60a12ec9c2a73359edca52972bf6f64"
+  integrity sha1-5YkjJNYKEuycKnM1ntylKXK/b2Q=
+
 mz@^2.4.0:
   version "2.7.0"
   resolved "https://registry.nlark.com/mz/download/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
@@ -7284,6 +7494,11 @@ nan@^2.12.1:
   version "2.15.0"
   resolved "https://registry.nlark.com/nan/download/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha1-PzSkc/8Y4VwbVia2KQO1rW5mX+4=
+
+nanoid@^3.1.23:
+  version "3.1.25"
+  resolved "https://registry.nlark.com/nanoid/download/nanoid-3.1.25.tgz?cache=0&sync_timestamp=1628771965808&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
+  integrity sha1-CcoydHwOVD8OGBS303k0d/nI4VI=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -7654,6 +7869,13 @@ os-browserify@^0.3.0:
   version "0.3.0"
   resolved "https://registry.nlark.com/os-browserify/download/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
+
+os-locale-s-fix@^1.0.8-fix:
+  version "1.0.8-fix"
+  resolved "https://registry.nlark.com/os-locale-s-fix/download/os-locale-s-fix-1.0.8-fix.tgz#e9e8ab797072d650fde878692bae2765b804529a"
+  integrity sha1-6eireXBy1lD96HhpK64nZbgEUpo=
+  dependencies:
+    lcid "^3.0.0"
 
 p-each-series@^2.1.0:
   version "2.2.0"
@@ -8133,6 +8355,11 @@ postcss-modules-extract-imports@^2.0.0:
   dependencies:
     postcss "^7.0.5"
 
+postcss-modules-extract-imports@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/postcss-modules-extract-imports/download/postcss-modules-extract-imports-3.0.0.tgz#cda1f047c0ae80c97dbe28c3e76a43b88025741d"
+  integrity sha1-zaHwR8CugMl9vijD52pDuIAldB0=
+
 postcss-modules-local-by-default@^2.0.6:
   version "2.0.6"
   resolved "https://registry.nlark.com/postcss-modules-local-by-default/download/postcss-modules-local-by-default-2.0.6.tgz#dd9953f6dd476b5fd1ef2d8830c8929760b56e63"
@@ -8152,6 +8379,15 @@ postcss-modules-local-by-default@^3.0.2:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.1.0"
 
+postcss-modules-local-by-default@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.nlark.com/postcss-modules-local-by-default/download/postcss-modules-local-by-default-4.0.0.tgz#ebbb54fae1598eecfdf691a02b3ff3b390a5a51c"
+  integrity sha1-67tU+uFZjuz99pGgKz/zs5ClpRw=
+  dependencies:
+    icss-utils "^5.0.0"
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.1.0"
+
 postcss-modules-scope@^2.1.0, postcss-modules-scope@^2.2.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/postcss-modules-scope/download/postcss-modules-scope-2.2.0.tgz#385cae013cc7743f5a7d7602d1073a89eaae62ee"
@@ -8159,6 +8395,13 @@ postcss-modules-scope@^2.1.0, postcss-modules-scope@^2.2.0:
   dependencies:
     postcss "^7.0.6"
     postcss-selector-parser "^6.0.0"
+
+postcss-modules-scope@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/postcss-modules-scope/download/postcss-modules-scope-3.0.0.tgz#9ef3151456d3bbfa120ca44898dfca6f2fa01f06"
+  integrity sha1-nvMVFFbTu/oSDKRImN/Kby+gHwY=
+  dependencies:
+    postcss-selector-parser "^6.0.4"
 
 postcss-modules-values@^2.0.0:
   version "2.0.0"
@@ -8175,6 +8418,27 @@ postcss-modules-values@^3.0.0:
   dependencies:
     icss-utils "^4.0.0"
     postcss "^7.0.6"
+
+postcss-modules-values@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.nlark.com/postcss-modules-values/download/postcss-modules-values-4.0.0.tgz#d7c5e7e68c3bb3c9b27cbf48ca0bb3ffb4602c9c"
+  integrity sha1-18Xn5ow7s8myfL9Iyguz/7RgLJw=
+  dependencies:
+    icss-utils "^5.0.0"
+
+postcss-modules@^4.0.0:
+  version "4.2.2"
+  resolved "https://registry.nlark.com/postcss-modules/download/postcss-modules-4.2.2.tgz#5e7777c5a8964ea176919d90b2e54ef891321ce5"
+  integrity sha1-Xnd3xaiWTqF2kZ2QsuVO+JEyHOU=
+  dependencies:
+    generic-names "^2.0.1"
+    icss-replace-symbols "^1.1.0"
+    lodash.camelcase "^4.3.0"
+    postcss-modules-extract-imports "^3.0.0"
+    postcss-modules-local-by-default "^4.0.0"
+    postcss-modules-scope "^3.0.0"
+    postcss-modules-values "^4.0.0"
+    string-hash "^1.1.1"
 
 postcss-normalize-charset@^4.0.1:
   version "4.0.1"
@@ -8304,7 +8568,7 @@ postcss-selector-parser@^5.0.0:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
+postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
   version "6.0.6"
   resolved "https://registry.nlark.com/postcss-selector-parser/download/postcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
   integrity sha1-LFu6gXSsL2mBq2MaQqsO5UrzMuo=
@@ -8364,6 +8628,15 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.27, postcss@^7.0.3
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+postcss@^8.1.10:
+  version "8.3.6"
+  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.6.tgz?cache=0&sync_timestamp=1626883239868&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-8.3.6.tgz#2730dd76a97969f37f53b9a6096197be311cc4ea"
+  integrity sha1-JzDddql5afN/U7mmCWGXvjEcxOo=
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -9388,6 +9661,11 @@ source-list-map@^2.0.0:
   resolved "https://registry.nlark.com/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
 
+source-map-js@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.nlark.com/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
+
 source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.3"
   resolved "https://registry.nlark.com/source-map-resolve/download/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
@@ -9426,6 +9704,11 @@ source-map@^0.7.3:
   version "0.7.3"
   resolved "https://registry.nlark.com/source-map/download/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
+
+sourcemap-codec@^1.4.4:
+  version "1.4.8"
+  resolved "https://registry.nlark.com/sourcemap-codec/download/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
+  integrity sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=
 
 spdx-correct@^3.0.0:
   version "3.1.1"
@@ -9482,6 +9765,11 @@ split-string@^3.0.1, split-string@^3.0.2:
   integrity sha1-fLCd2jqGWFcFxks5pkZgOGguj+I=
   dependencies:
     extend-shallow "^3.0.0"
+
+sprintf-js@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.nlark.com/sprintf-js/download/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
+  integrity sha1-2hdlJiv4wPVxdJ8q1sJjACB65nM=
 
 sprintf-js@~1.0.2:
   version "1.0.3"
@@ -9600,6 +9888,11 @@ stricter-htmlparser2@^3.9.6:
     inherits "^2.0.1"
     readable-stream "^2.0.2"
     x-domhandler "^2.4.2"
+
+string-hash@^1.1.1:
+  version "1.1.3"
+  resolved "https://registry.nlark.com/string-hash/download/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
+  integrity sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
 
 string-length@^3.1.0:
   version "3.1.0"
@@ -10351,10 +10644,14 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.nlark.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.6.11:
-  version "2.6.14"
-  resolved "https://registry.nlark.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
-  integrity sha1-5RqlJQJQ1Wmj+606ilpofWA24jU=
+vue@3.2.12:
+  version "3.2.12"
+  resolved "https://registry.nlark.com/vue/download/vue-3.2.12.tgz#b44f55506fb6a7c4b65635e609deb5f9368aa2ce"
+  integrity sha1-tE9VUG+2p8S2VjXmCd61+TaKos4=
+  dependencies:
+    "@vue/compiler-dom" "3.2.12"
+    "@vue/runtime-dom" "3.2.12"
+    "@vue/shared" "3.2.12"
 
 vuex@^3.2.0:
   version "3.6.2"
