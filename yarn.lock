@@ -973,10 +973,10 @@
     qrcode-terminal "^0.12.0"
     ws "^7.2.3"
 
-"@dcloudio/uni-cli-i18n@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.nlark.com/@dcloudio/uni-cli-i18n/download/@dcloudio/uni-cli-i18n-0.0.1.tgz#338899df3d09e6b15518056c66f8600820d0971d"
-  integrity sha1-M4iZ3z0J5rFVGAVsZvhgCCDQlx0=
+"@dcloudio/uni-cli-i18n@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-cli-i18n/download/@dcloudio/uni-cli-i18n-2.0.0-alpha-32720210917001.tgz#d82357c77d1f61d1a25fd1ac4d1db951d815dfff"
+  integrity sha1-2CNXx30fYdGiX9GsTR25UdgV3/8=
   dependencies:
     i18n "^0.13.3"
     os-locale-s-fix "^1.0.8-fix"
@@ -1005,10 +1005,10 @@
   resolved "https://registry.nlark.com/@dcloudio/uni-helper-json/download/@dcloudio/uni-helper-json-1.0.13.tgz#4e8aa062daaefb30d98973c035a7b0ab628329c7"
   integrity sha1-ToqgYtqu+zDZiXPANaewq2KDKcc=
 
-"@dcloudio/uni-i18n@^2.0.0-32220210818002":
-  version "2.0.0-32220210818002"
-  resolved "https://registry.nlark.com/@dcloudio/uni-i18n/download/@dcloudio/uni-i18n-2.0.0-32220210818002.tgz#6d628d28a415e3e9d7a6d202dc93c11b5ed982d9"
-  integrity sha1-bWKNKKQV4+nXptIC3JPBG17Zgtk=
+"@dcloudio/uni-i18n@2.0.0-alpha-32720210917001":
+  version "2.0.0-alpha-32720210917001"
+  resolved "https://registry.nlark.com/@dcloudio/uni-i18n/download/@dcloudio/uni-i18n-2.0.0-alpha-32720210917001.tgz#6ee2675ce488bf7ccca0c3e74385eb06b03ffcb2"
+  integrity sha1-buJnXOSIv3zMoMPnQ4XrBrA//LI=
 
 "@dcloudio/uni-migration@2.0.0-alpha-32720210917001":
   version "2.0.0-alpha-32720210917001"

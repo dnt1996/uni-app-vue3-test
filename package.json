@@ -43,10 +43,10 @@
   },
   "dependencies": {
     "@dcloudio/uni-app-plus": "2.0.0-alpha-32720210917001",
-    "@dcloudio/uni-cli-i18n": "^0.0.1",
+    "@dcloudio/uni-cli-i18n": "2.0.0-alpha-32720210917001",
     "@dcloudio/uni-h5": "2.0.0-alpha-32720210917001",
     "@dcloudio/uni-helper-json": "*",
-    "@dcloudio/uni-i18n": "^2.0.0-32220210818002",
+    "@dcloudio/uni-i18n": "2.0.0-alpha-32720210917001",
     "@dcloudio/uni-mp-360": "2.0.0-alpha-32720210917001",
     "@dcloudio/uni-mp-alipay": "2.0.0-alpha-32720210917001",
     "@dcloudio/uni-mp-baidu": "2.0.0-alpha-32720210917001",
