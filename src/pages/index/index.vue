@@ -1,49 +1,22 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view>
-			<text class="title">{{title}}</text>
-		</view>
-	</view>
+	<Foo></Foo>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
+import {onHide, onShareAppMessage, onShow} from "@dcloudio/uni-app";
+    import {defineComponent} from "vue";
+    import Foo from "../../components/Foo";
 
-		},
-		methods: {
+    export default defineComponent({
+        components: {Foo},
+        setup() {
+            onShow(() => {
+                console.log("onShow")
+            })
 
-		}
-	}
+            onHide(() => {
+                console.log("onHide")
+            })
+        }
+    })
 </script>
-
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
-</style>
