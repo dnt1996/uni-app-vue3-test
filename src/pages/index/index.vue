@@ -1,49 +1,35 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view>
-			<text class="title">{{title}}</text>
-		</view>
+	<view>
+        <!--正常渲染-->
+        <Foo name="Bar"></Foo>
+
+        <!--name=""-->
+		<Foo
+            :name="list.toString()"
+        ></Foo>
+
+        <!--完全不渲染-->
+        <Foo
+            v-for="item in list"
+            :key="item.id"
+            :name="item.id.toString()"
+        ></Foo>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
+	import Foo from "./Foo";
+    export default {
+        components: {Foo},
+        setup() {
+            return {
+                list: [
+                    {id: 1},
+                    {id: 2},
+                    {id: 3}
+                ],
+            }
+        }
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
-</style>
